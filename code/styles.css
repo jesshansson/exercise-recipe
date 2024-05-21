@@ -1,0 +1,38 @@
+body {
+  background-color: #EBF3E8 ;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bilder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header {
+  background-color: #B2C8BA ;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+h1, footer {
+  font-family: "Poetsen One", sans-serif;
+}
+
+img {
+  height: auto; /* Behåll bildens höjd-proportioner */
+  object-fit: contain; /* För att se hela bilden utan beskärning */
+  margin: 10px 30px;
+}
+
+footer {
+  background-color: #B2C8BA ;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+main {
+  background-color: #EBF3E8 ;
+  padding: 10px;
+}
