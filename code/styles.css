@@ -3,6 +3,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+main {
+  background-color: #EBF3E8 ;
+  padding: 10px;
+}
+
 .bilder {
   display: flex;
   flex-direction: row;
@@ -20,8 +25,8 @@ h1, footer {
 }
 
 img {
-  height: auto; /* Behåll bildens höjd-proportioner */
-  object-fit: contain; /* För att se hela bilden utan beskärning */
+  height: auto;
+  object-fit: contain;
   margin: 10px 30px;
 }
 
@@ -29,9 +34,12 @@ footer {
   background-color: #B2C8BA ;
   padding: 20px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-main {
-  background-color: #EBF3E8 ;
-  padding: 10px;
+#farmor-footer {
+  width: 5rem;
 }
+
