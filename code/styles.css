@@ -5,13 +5,7 @@ body {
 
 main {
   background-color: #EBF3E8 ;
-  padding: 10px;
-}
-
-.bilder {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  padding: 1rem;
 }
 
 header {
@@ -24,10 +18,21 @@ h1, footer {
   font-family: "Poetsen One", sans-serif;
 }
 
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 img {
   height: auto;
   object-fit: contain;
   margin: 10px 30px;
+
+  @media (max-width: 600px) {
+    width: 30%;
+  }
+
 }
 
 footer {
@@ -39,7 +44,6 @@ footer {
   justify-content: space-between;
 }
 
-#farmor-footer {
+.farmor-footer {
   width: 5rem;
 }
-
